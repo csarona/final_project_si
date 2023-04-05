@@ -1,26 +1,45 @@
 *{
     /* background-color: #D7F9F8; */
     background-color: #E5D4EF;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
 }
 
-.images img{
+.images img, .tv img{
     width:400px;
     height:593px;
     border: 5px solid #7b2089;
     padding: 0px;
    
 }
-div{
-    display:inline;
- 
-}
-.images li{
-    font-size: 30px;
-    /* margin: 0px 100px 0px 0px; */
-}
-/* .introduction img{
-    width: 567px;
-    height: 262px;
 
-} */
+.images{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.introduction{
+    text-align: center;
+}
+/* style nav */
+nav li{
+    display:inline;
+    padding-right:20px;
+  
+}
+nav a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none; 
+}
+nav{
+    background-color: #7b2089;
+    padding: 25px 0; 
+    text-align: left;
+}
+
+/* add focus on nav */
+a:focus, a:hover {
+    text-decoration-line: underline;
+}
+

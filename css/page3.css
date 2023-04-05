@@ -6,3 +6,37 @@ img{
     height:593px;
     border: 5px solid #A94064;
 }
+.images{
+    display: flex;
+    overflow: visible;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    text-align: center;
+}
+.intro{
+    text-align: center;
+}
+/* style nav */
+nav li{
+    display:inline;
+    padding-right:20px;
+  
+}
+/* style nav */
+nav a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none; 
+}
+/* style nav */
+nav{
+background-color: #A94064;
+padding: 25px 0; 
+text-align: left;
+}
+
+/* add focus on nav */
+a:focus, a:hover {
+    text-decoration-line: underline;
+}
