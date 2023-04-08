@@ -9,10 +9,11 @@ img{
     border: 5px solid #2E5984;
 }
 .images{
-    display: flex;
+    display: grid;
     overflow: visible;
+   
     justify-content: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     gap: 15px;
     text-align: center;
 }
