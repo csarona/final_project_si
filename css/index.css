@@ -1,18 +1,16 @@
 *{
-    /* background-color: rgb(255, 222, 227); */
     background-color: #D7F9F8;
-    /* background-color: #FBE0E0; 2b7472*/
-    overflow: hidden;
 }
 /* style nav */
-/* style nav */
+
 nav li{
     display:inline;
     padding-right:20px;
     background-color: #2b7472;
-    /* padding: 0px 20px 0px 20px; */
+    padding: 0px 10px 0px 10px;
   
 }
+/* style nav */
 nav ul{
     display: flex;
     background-color: #2b7472;

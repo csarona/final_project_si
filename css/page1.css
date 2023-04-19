@@ -1,10 +1,9 @@
 *{
-    /* background-color: #D7F9F8; */
     background-color: #E5D4EF;
-    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+main{
     overflow: hidden;
 }
-
 img{
     width: 50%;
     border: 5px solid #7b2089;
@@ -59,7 +58,7 @@ nav li{
     display:inline;
     padding-right:10px;
     background-color: #7b2089;
-    /* padding: 0px 20px 0px 20px; */
+    padding: 0px 10px 0px 10px;
   
 }
 nav ul{
