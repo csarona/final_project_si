@@ -1,0 +1,180 @@
+*{
+    background-color: #D6E6FF;
+}
+main{
+    overflow: hidden;
+}
+img{
+    width:55%;
+    border: 5px solid #2E5984;
+}
+.intro p{
+    margin: 20px 0px 20px 0px;
+}
+.images ol{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 15px;
+    text-align: center;
+    padding: 0px;
+}
+.httyd, .cars, .brave, .spiderman,.bighero,.walle.mulan, .boots, .panda {
+    grid-column: 1/ span 1;
+}
+.intro p, h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+h1{
+    /* font-size: 32px; */
+    font-weight: bold;
+}
+h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+/* style nav */
+nav li{
+    display:inline;
+    padding-right:20px;
+    background-color: #2E5984;
+    padding: 0px 10px 0px 10px;
+  
+}
+nav ul{
+    display: flex;
+    background-color: #2E5984;
+    justify-content: center;
+    align-items: center;
+    padding-inline-start: 0px;
+}
+/* style nav */
+nav a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none; 
+    background-color: white;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+/* style nav */
+nav{
+background-color: #2E5984;
+padding: 25px 0; 
+text-align: left;
+}
+
+/* add focus on nav */
+a:focus, a:hover {
+    background-color: #D6E6FF;
+    border: solid 3px white;
+    padding: 20px;
+}
+.active{
+    background-color: #D6E6FF;
+    border: solid 3px white;
+}
+.skip a{
+    background: white;
+    left: 0;
+    padding: 6px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+}
+.skip a { 
+    position: absolute;
+    top: -40px;
+}
+.skip a:focus {
+    position: absolute;
+    top: 20px;
+}
+footer{
+    background-color: #2E5984;
+    color: white;
+}
+@media screen and (min-width: 600px) {
+    .images ol{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        
+        grid-gap: 15px;
+        text-align: center;
+        padding: 0px;
+    }
+    .httyd, .cars{
+        grid-row: 1/ span 1;
+    }
+    .cars, .walle, .mulan, .brave{
+        grid-column: 2/ span 1;
+    }
+
+    .bighero,.walle{
+        grid-row: 2/ span 1;
+    }
+    .mulan, .boots{
+    
+        grid-row: 3 /span 1;
+    }
+    .brave, .panda{
+        grid-row: 4 / span 1;
+    }
+    .spiderman{
+        grid-row: 5 / span 1;
+    }
+    h1{
+        font-size: 20px;
+    }
+    nav ul{
+        justify-content: flex-start;
+    }
+    img{
+        width:60%;
+    }
+    
+
+}
+@media screen and (min-width: 800px){
+    .images ol{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        
+        grid-gap: 15px;
+        text-align: center;
+        padding: 0px;
+    }
+    .httyd, .cars, .brave{
+        grid-row: 1/ span 1;
+    }
+    .brave, .walle, .panda{
+        grid-column: 3/ span 1;
+    }
+    .cars, .spiderman, .mulan{
+        grid-column: 2/ span 1;
+    }
+    .spiderman,.bighero,.walle{
+        grid-row: 2/ span 1;
+    }
+    .mulan, .boots, .panda{
+        grid-row: 3 /span 1;
+    }
+    nav ul{
+        justify-content: flex-end;
+    }
+    h1{
+        font-size: 32px;
+    }
+    img{
+        width:80%;
+    }
+    
+}

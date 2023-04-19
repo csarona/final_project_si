@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/funky-pink-heart.png" />
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link href="dist/css/lightbox.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/barbie.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="skip"><a href="#main">Skip to Main Content</a></div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href = "index.html">Home</a></li>
+                <li><a href = "marvel.html">Marvel</a></li>
+                <li><a href = "animated.html">Animated</a></li>
+                <li><a href = "barbie.html" class = "active">Barbie</a></li>
+            </ul>
+        </nav>
+    </header>  
+    <main id="main">
+        <div class="intro">
+            <h1>Barbie Movies</h1> 
+            <p>These movies were my childhood and the most rewatched.</p>
+        </div>
+       
+        
+        <div class="images">
+            <ol>
+                <div class="dancing">
+                    <h2>Barbie in The 12 Dancing Princesses</h2>
+                    <img src="barbie/12dancing.jpeg" alt="barbie dancing ballet with sisters in the background"></div>
+                <div class=" fairytopia">
+                    <h2>Barbie Fairytopia: Magic of the Rainbow</h2>
+                    <img src="barbie/rainbow.webp" alt="barbie has rainbow wings in a rainbow dress"></div>
+                <div class="pauper">
+                    <h2>Barbie as the Princess and the Pauper</h2>
+                    <img src="barbie/princesspauper.jpeg" alt="blondie barbie on the left and brunette barbie on the right"></div>
+                <div class = "musketeer">
+                    <h2>Barbie and The 3 Musketeers</h2>
+                    <img src="barbie/3musketeers.jpeg" alt="barbie has a sword extended out"></div>
+                <div class="mermaid">
+                    <h2>Barbie in a Mermaid Tale</h2>
+                    <img src="barbie/Mermaid_Tale.webp" alt="barbie on a surfboard riding a wave"></div>
+                <div class="charm">
+                    <h2>Barbie: Princess charm school</h2>
+                    <img src="barbie/charm.jpg" alt="barbie in a pink ballgown holding a book">
+                </div>
+                
+            </ol>
+        </div>
+        
+    </main>
+    <script src="dist/js/lightbox-plus-jquery.js"></script>
+    <script>
+        lightbox.option({
+            'resizeDuration': 200,
+            'wrapAround': true,
+            
+        })
+    </script>
+    <footer>
+        <p>Celina Sarona <br/>
+          &copy; 2023</p>
+    </footer>
+    
+</body>
+</html>
