@@ -1,5 +1,6 @@
 *{
     background-color: #D6E6FF;
+    overflow: hidden;
 }
 
 img{
@@ -36,7 +37,7 @@ nav li{
     display:inline;
     padding-right:20px;
     background-color: #2E5984;
-    padding: 0px 20px 0px 20px;
+    /* padding: 0px 20px 0px 20px; */
   
 }
 nav ul{

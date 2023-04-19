@@ -2,6 +2,7 @@
     /* background-color: #D7F9F8; */
     background-color: #E5D4EF;
     /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    overflow: hidden;
 }
 
 img{
@@ -17,7 +18,6 @@ img{
 
 .images ol{
     display: grid;
-    /* grid-template-columns: 1fr 1fr 1fr; */
     justify-content: center;
     align-items: center;
     
@@ -47,7 +47,7 @@ h1, h2{
     font-weight: bold;
 }
 h1{
-    font-size: 20px;
+    font-size: 24px;
 
 }
 h2{
@@ -57,9 +57,9 @@ h2{
 /* style nav */
 nav li{
     display:inline;
-    padding-right:20px;
+    padding-right:10px;
     background-color: #7b2089;
-    padding: 0px 20px 0px 20px;
+    /* padding: 0px 20px 0px 20px; */
   
 }
 nav ul{
@@ -112,10 +112,10 @@ footer{
 }
 @media screen and (min-width: 600px) {
     h1{
-        font-size: 20px;
+        font-size: 30px;
     }
     h2{
-        font-size: 15px;
+        font-size: 20px;
     }
     nav ul{
         justify-content: flex-start;

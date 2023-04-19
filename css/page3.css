@@ -1,5 +1,6 @@
 *{
     background-color: rgb(255, 222, 227);
+    overflow: hidden;
 }
 img{
     width:55%;
@@ -31,7 +32,7 @@ h2{
 /* style nav */
 nav li{
     display:inline;
-    padding: 0px 20px 0px 20px;
+    /* padding: 0px 20px 0px 20px; */
     background-color: #A94064
   
 }
