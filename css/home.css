@@ -2,9 +2,14 @@
     background-color: #D7F9F8;
 }
 
-/* .intro p{
+.intro p{
     margin: 20px 0px 20px 0px;
-} */
+}
+.intro h1, .intro p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 /* style nav */
 .active{
     background-color: #D7F9F8;
@@ -44,15 +49,15 @@ nav{
 }
 
 /* add focus on nav */
-a:focus, a:hover {
+nav a:focus, nav a:hover {
     background-color: #D7F9F8;
     border: solid 3px white;
     padding: 20px;
 }
-.intro h1, p{
+/* .intro h1, .intro p{
     display: flex;
     justify-content: center;
-}
+} */
 h1{
     font-size: 32px;
     font-weight: bold;
@@ -80,6 +85,25 @@ h2{
 footer{
     color: white;
     background-color: #2b7472;
+  
+}
+footer a{
+    color: white;
+}
+footer a:hover, footer a:focus{
+    border: solid 2px white;
+    padding: 10px;
+}
+.images ol{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-left: 100px;
+    
+}
+img{
+    width: 60%;
 }
 @media screen and (min-width: 600px) {
     h1{
@@ -87,6 +111,12 @@ footer{
     }
     nav ul{
         justify-content: flex-start;
+    }
+    .images{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .pixar{
+        grid-column: 3/span 1;
     }
 }
 @media screen and (min-width: 800px) {
@@ -97,4 +127,5 @@ footer{
         font-size: 32px;
         
     }
+   
 }

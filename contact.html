@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+    <title>Contact Me</title>
+</head>
+<body>
+    <div class="skip"><a href="#main">Skip to Main Content</a></div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href = "index.html" class = "active">Home</a></li>
+                <li><a href = "marvel.html">Marvel</a> </li>
+                <li><a href = "animated.html">Animated</a> </li>
+                <li><a href = "barbie.html" >Barbie</a></li>
+            </ul>
+        </nav>
+    </header> 
+    <main id="main">
+        <div class="contact">
+            <div class="form">
+              <form action ="https://formspree.io/f/xdovgwez" method = "POST">
+                <div class="fieldset">
+                  <fieldset>
+                      <legend>Contact Me</legend>
+                      <p>Tell me what you think about these movies and what are your favorite movies?</p>
+                      <!-- <label for ="first name">First Name</label>  -->
+                      <!-- <input type= "text" placeholder="First Name"  id= "first_name" name = "first_name"required></input> -->
+                      <div class="firstname">
+                        <label for="first">First Name</label>
+                        <input  type="text" placeholder="Enter Your Name" id="first" name="first"> </div>
+                      
+                        <div class="lastname">
+                            <label for ="last_name">Last Name</label> 
+                            <input type= "text" placeholder="Last Name"  id= "last_name" name = "last_name" ></input>
+                        </div>
+                        <div class="email">
+                          <label for = "email">Your Email</label> 
+                            <input type="email" placeholder = "Email" id = "email" name ="email" required></input>  
+                        </div>
+                        <div class="reason">
+                            <label for = "reason">Reason</label><br>
+                            <input type="text" placeholder = "Reason" id = "reason" name="reason" required></input>
+                        </div>
+                        <div class="message">
+                            <label for = "message">Leave A Message</label><br>
+                            <textarea type="text" placeholder = "Message"  id = "message" name="message" required></textarea>
+                        </div>
+    
+                      <div class="submit">
+                         <input type="submit" id = "submit" value="submit"></input>
+                      </div>
+                     
+                  </fieldset>
+                </div>  
+              </form>
+            </div>
+          </div>
+    </main>
+    <footer>
+        <p>Celina Sarona <br/>
+          &copy; 2023</p>
+    </footer>
+</body>
+</html>

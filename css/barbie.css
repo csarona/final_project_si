@@ -70,7 +70,7 @@ nav ul{
 }
 
 /* add focus on nav */
-a:focus, a:hover {
+nav a:focus, nav a:hover {
     background-color: rgb(255, 222, 227);
     border: solid 3px white;
     padding: 20px;
@@ -94,6 +94,13 @@ a:focus, a:hover {
 footer{
     background-color: #A94064;
     color: white;
+}
+footer a{
+    color: white;
+}
+footer a:hover, footer a:focus{
+    border: solid 2px white;
+    padding: 10px;
 }
 @media screen and (min-width: 600px) {
     h1{
