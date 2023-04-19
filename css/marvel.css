@@ -96,6 +96,7 @@ nav a:focus, nav a:hover {
 .active{
     background-color: #E5D4EF;
     border: solid 3px white;
+    text-decoration: underline;
 }
 .skip a{
     background: white;

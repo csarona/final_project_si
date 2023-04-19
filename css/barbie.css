@@ -15,6 +15,7 @@ img{
 .active{
     background-color: rgb(255, 222, 227);
     border: solid 3px white;
+    text-decoration: underline;
 }
 .images ol{
     display: grid;
